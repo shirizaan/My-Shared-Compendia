@@ -1,14 +1,14 @@
 {
   "name": "shared-compendia",
   "title": "Shared Compendia",
-  "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",
-  "author": "sts",
-  "version": "1.0.1",
-  "minimumCoreVersion": "0.9.0",
-  "compatibleCoreVersion": "0.9.245",
-  "download": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/shared-compendia.zip",
-  "manifest": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/module.json",
-  "url": "https://github.com/shirizaan/shared-compendia",
+  "description": "A user-editable compendium, tailored for SWADE, designed to allow easy transfer of content between games.",
+  "author": "David Rose",
+  "version": "1.1.1",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "download": "https://github.com/shirizaan/swade-shared-compendium/releases/latest/download/swade-shared-compendia.zip",
+  "manifest": "https://raw.githubusercontent.com/shirizaan/swade-shared-compendium/main/module.json",
+  "url": "https://github.com/shirizaan/swade-shared-compendia",
   "packs": [
     {
       "name": "bestiary",
