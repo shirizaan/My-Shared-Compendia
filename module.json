@@ -1,72 +1,112 @@
-{   
-  "name": "My-Shared-Compendia",   
-  "title": "My Shared Compendia",   
-  "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",   
+{
+  "name": "shared-compendia",
+  "title": "Shared Compendia",
+  "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",
   "author": "sts",
   "version": "1.0.0",
-  "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion":"3.2.1",
+  "minimumCoreVersion": "0.9.0",
+  "compatibleCoreVersion": "0.9.0",
+  "download": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/shared-compendia.zip",
+  "manifest": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/module.json",
+  "url": "https://github.com/shirizaan/shared-compendia",
   "packs": [
-      {
-        "name": "actors",
-        "label": "My actors",
-        "path": "packs/actors.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Actor"
-      },
-      {
-        "name": "monsters",
-        "label": "My Monsters",
-        "path": "packs/monsters.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Actor"
-      },
-      {
-        "name": "items",
-        "label": "My Items",
-        "path": "packs/items.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Item"
-      },
-      {
-        "name": "scenes",
-        "label": "My Scenes",
-        "path": "packs/scenes.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Scene"
-      },
-      {
-        "name": "JournalEntrys",
-        "label": "My Journal Entrys",
-        "path": "packs/journalentry.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "JournalEntry"
-      },
-      {
-        "name": "macros",
-        "label": "My Macros",
-        "path": "packs/macro.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Macro"
-      },
-      {
-        "name": "rolltable",
-        "label": "My Roll Tables",
-        "path": "packs/rolltable.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "RollTable"
-      },
-      {
-        "name": "playlist",
-        "label": "My Playlist",
-        "path": "packs/playlist.db",
-      	"module": "My-Shared-Compendia",
-        "entity": "Playlist"
-      }
-    ],
-    
-  "download": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",
-  "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json",
-
-  "url": "https://github.com/stschoelzel/My-Shared-Compendia"
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary.db",
+      "module": "shared-compendia",
+      "entity": "Actor"
+    },
+    {
+      "name": "edges",
+      "label": "Edges",
+      "path": "packs/edges.db",
+      "module": "shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "hindrances",
+      "label": "Hindrances",
+      "path": "packs/hindrances.db",
+      "module": "shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "skills",
+      "label": "skills",
+      "path": "packs/skills.db",
+      "module": "shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "powers",
+      "label": "Powers",
+      "path": "packs/powers.db",
+      "module": "shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "gear",
+      "label": "Gear",
+      "path": "packs/gear.db",
+      "module": "shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "special-abilities",
+      "label": "Special Abilities",
+      "path": "packs/gear.db",
+      "module": "shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes.db",
+      "module": "shared-compendia",
+      "entity": "Scene"
+    },
+    {
+      "name": "journal-entries",
+      "label": "Journal Entries",
+      "path": "packs/journal-entries.db",
+      "module": "shared-compendia",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macro.db",
+      "module": "shared-compendia",
+      "entity": "Macro"
+    },
+    {
+      "name": "rolltable",
+      "label": "Roll Tables",
+      "path": "packs/rolltable.db",
+      "module": "shared-compendia",
+      "entity": "RollTable"
+    },
+    {
+      "name": "playlist",
+      "label": "Playlists",
+      "path": "packs/playlist.db",
+      "module": "shared-compendia",
+      "entity": "Playlist"
+    }
+  ],
+  "system": [
+    "swade"
+  ],
+  "dependencies": [
+    {
+      "type": "module",
+      "name": "compendium-folders",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/082-update/module.json"
+    },
+    {
+      "name": "swade",
+      "type": "system"
+    }
+  ]
 }

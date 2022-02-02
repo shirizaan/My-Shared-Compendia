@@ -14,8 +14,8 @@ But I strongly recommend you still read why the edit was necessary.
 2.  Open you local My-Shared-Compendia/module.json
 3.  Delete line 68 to 69
 
-68   "download": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/My-Shared-Compendia.zip",    
-69   "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/download/1.0.0/module.json"    
+68   "download": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/My-Shared-Compendia.zip",    
+69   "manifest": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/module.json"    
 
 
 🚨 Whenever there is an update,  👏 FoundryVTT  👏 will  👏 erase  👏 your  👏 compendia 👏.
@@ -33,14 +33,17 @@ Compendia are locked by default, because every change you manually did will be r
 
 ## Default Setup
 This module comes with 8 Default compendia. One for each Type of Entity that is [supported by FoundryVTT](https://foundryvtt.com/article/compendium/ "supported by FoundryVTT") and one extra "Actors".
-- My Actors ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
-- My Monsters ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
-- My Items ([Item](https://foundryvtt.com/api/Item.html "Item"))
-- My Scenes ([Scene](https://foundryvtt.com/api/Scene.html "Scene"))
-- My Journal Entrys ([JournalEntry](https://foundryvtt.com/api/JournalEntry.html "JournalEntry"))
-- My Macros ([Macro](https://foundryvtt.com/api/Macro.html "Macro"))
-- My Roll Tables ([RollTable](https://foundryvtt.com/api/RollTable.html "RollTable"))
-- My Playlists ([Playlist](https://foundryvtt.com/api/Playlist.html "Playlist"))
+- Bestiary ([Actor](https://foundryvtt.com/api/Actor.html "Actor"))
+- Edges ([Item](https://foundryvtt.com/api/Item.html "Item"))
+- Hindrances ([Item](https://foundryvtt.com/api/Item.html "Item"))
+- Skills ([Item](https://foundryvtt.com/api/Item.html "Item"))
+- Powers ([Item](https://foundryvtt.com/api/Item.html "Item"))
+- Special Abilities ([Item](https://foundryvtt.com/api/Item.html "Item"))
+- Scenes ([Scene](https://foundryvtt.com/api/Scene.html "Scene"))
+- Journal Entries ([JournalEntry](https://foundryvtt.com/api/JournalEntry.html "JournalEntry"))
+- Macros ([Macro](https://foundryvtt.com/api/Macro.html "Macro"))
+- Roll Tables ([RollTable](https://foundryvtt.com/api/RollTable.html "RollTable"))
+- Playlists ([Playlist](https://foundryvtt.com/api/Playlist.html "Playlist"))
 
 ## Customize
 To change the default setup simple edit the module.json. All compendia are defined within the "packs" attribute beginning with line 10. 
