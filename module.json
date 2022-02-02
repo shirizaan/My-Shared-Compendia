@@ -6,7 +6,7 @@
   "version": "1.1.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
-  "download": "https://github.com/shirizaan/swade-shared-compendium/releases/latest/download/swade-shared-compendia.zip",
+  "download": "https://github.com/shirizaan/swade-shared-compendium/releases/latest/download/swade-shared-compendium.zip",
   "manifest": "https://raw.githubusercontent.com/shirizaan/swade-shared-compendium/main/module.json",
   "url": "https://github.com/shirizaan/swade-shared-compendia",
   "packs": [
