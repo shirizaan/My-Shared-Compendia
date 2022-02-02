@@ -3,9 +3,9 @@
   "title": "Shared Compendia",
   "description": "Sharing data across worlds via Compendia as explained by u/solfolango on r/FoundryVTT",
   "author": "sts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.9.0",
-  "compatibleCoreVersion": "0.9.0",
+  "compatibleCoreVersion": "0.9.245",
   "download": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/shared-compendia.zip",
   "manifest": "https://github.com/shirizaan/shared-compendia/releases/download/1.0.0/module.json",
   "url": "https://github.com/shirizaan/shared-compendia",
@@ -33,7 +33,7 @@
     },
     {
       "name": "skills",
-      "label": "skills",
+      "label": "Skills",
       "path": "packs/skills.db",
       "module": "shared-compendia",
       "entity": "Item"
