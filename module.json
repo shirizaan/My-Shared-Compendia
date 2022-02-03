@@ -1,9 +1,9 @@
 {
-  "name": "shared-compendia",
-  "title": "Shared Compendia",
+  "name": "swade-shared-compendium",
+  "title": "SWADE Shared Compendium",
   "description": "A user-editable compendium, tailored for SWADE, designed to allow easy transfer of content between games.",
   "author": "David Rose",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "download": "https://github.com/shirizaan/swade-shared-compendium/releases/latest/download/swade-shared-compendium.zip",
@@ -12,86 +12,135 @@
   "packs": [
     {
       "name": "bestiary",
-      "label": "Bestiary",
+      "label": "Shared Bestiary",
       "path": "packs/bestiary.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
       "entity": "Actor"
     },
     {
-      "name": "edges",
-      "label": "Edges",
-      "path": "packs/edges.db",
-      "module": "shared-compendia",
+      "name": "iconic-characters",
+      "label": "Shared Iconic Characters",
+      "path": "packs/iconic-characters.db",
+      "module": "swade-shared-compendia",
+      "entity": "Actor"
+    },
+    {
+      "name": "vehicles",
+      "label": "Shared Vehicles",
+      "path": "packs/vehicles.db",
+      "module": "swade-shared-compendia",
+      "entity": "Actor"
+    },
+    {
+      "name": "ancestries",
+      "label": "Shared Ancestries",
+      "path": "packs/ancestries.db",
+      "module": "swade-shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "bloodlines",
+      "label": "Shared Bloodlines",
+      "path": "packs/bloodlines.db",
+      "module": "swade-shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "deities-domains",
+      "label": "Shared Deities and Domains",
+      "path": "packs/deities-domains.db",
+      "module": "swade-shared-compendia",
       "entity": "Item"
     },
     {
       "name": "hindrances",
-      "label": "Hindrances",
+      "label": "Shared Hindrances",
       "path": "packs/hindrances.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "edges",
+      "label": "Shared Edges",
+      "path": "packs/edges.db",
+      "module": "swade-shared-compendia",
       "entity": "Item"
     },
     {
       "name": "skills",
-      "label": "Skills",
+      "label": "Shared Skills",
       "path": "packs/skills.db",
-      "module": "shared-compendia",
-      "entity": "Item"
-    },
-    {
-      "name": "powers",
-      "label": "Powers",
-      "path": "packs/powers.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
       "entity": "Item"
     },
     {
       "name": "gear",
-      "label": "Gear",
+      "label": "Shared Gear",
       "path": "packs/gear.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "magic-items",
+      "label": "Shared Magic Items",
+      "path": "packs/magic-items.db",
+      "module": "swade-shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "powers",
+      "label": "Shared Powers",
+      "path": "packs/powers.db",
+      "module": "swade-shared-compendia",
+      "entity": "Item"
+    },
+    {
+      "name": "magic-schools",
+      "label": "Shared Schools of Magic",
+      "path": "packs/magic-schools.db",
+      "module": "swade-shared-compendia",
       "entity": "Item"
     },
     {
       "name": "special-abilities",
-      "label": "Special Abilities",
-      "path": "packs/gear.db",
-      "module": "shared-compendia",
+      "label": "Shared Special Abilities",
+      "path": "packs/special-abilities.db",
+      "module": "swade-shared-compendia",
       "entity": "Item"
     },
     {
       "name": "scenes",
-      "label": "Scenes",
+      "label": "Shared Scenes",
       "path": "packs/scenes.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
       "entity": "Scene"
     },
     {
       "name": "journal-entries",
-      "label": "Journal Entries",
+      "label": "Shared Journal Entries",
       "path": "packs/journal-entries.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
       "entity": "JournalEntry"
     },
     {
       "name": "macros",
-      "label": "Macros",
+      "label": "Shared Macros",
       "path": "packs/macro.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
       "entity": "Macro"
     },
     {
       "name": "rolltable",
-      "label": "Roll Tables",
+      "label": "Shared Roll Tables",
       "path": "packs/rolltable.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
       "entity": "RollTable"
     },
     {
       "name": "playlist",
-      "label": "Playlists",
+      "label": "Shared Playlists",
       "path": "packs/playlist.db",
-      "module": "shared-compendia",
+      "module": "swade-shared-compendia",
       "entity": "Playlist"
     }
   ],
