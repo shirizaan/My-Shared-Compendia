@@ -3,7 +3,7 @@
   "title": "SWADE Shared Compendium",
   "description": "A user-editable compendium, tailored for SWADE, designed to allow easy transfer of content between games.",
   "author": "David Rose",
-  "version": "1.3.1",
+  "version": "1.3.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "download": "https://github.com/shirizaan/swade-shared-compendium/releases/latest/download/swade-shared-compendium.zip",
