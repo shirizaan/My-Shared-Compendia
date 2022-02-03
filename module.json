@@ -3,7 +3,7 @@
   "title": "SWADE Shared Compendium",
   "description": "A user-editable compendium, tailored for SWADE, designed to allow easy transfer of content between games.",
   "author": "David Rose",
-  "version": "1.2.1",
+  "version": "1.3.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "download": "https://github.com/shirizaan/swade-shared-compendium/releases/latest/download/swade-shared-compendium.zip",
@@ -16,41 +16,6 @@
       "path": "packs/bestiary.db",
       "module": "swade-shared-compendia",
       "entity": "Actor"
-    },
-    {
-      "name": "iconic-characters",
-      "label": "Shared Iconic Characters",
-      "path": "packs/iconic-characters.db",
-      "module": "swade-shared-compendia",
-      "entity": "Actor"
-    },
-    {
-      "name": "vehicles",
-      "label": "Shared Vehicles",
-      "path": "packs/vehicles.db",
-      "module": "swade-shared-compendia",
-      "entity": "Actor"
-    },
-    {
-      "name": "ancestries",
-      "label": "Shared Ancestries",
-      "path": "packs/ancestries.db",
-      "module": "swade-shared-compendia",
-      "entity": "Item"
-    },
-    {
-      "name": "bloodlines",
-      "label": "Shared Bloodlines",
-      "path": "packs/bloodlines.db",
-      "module": "swade-shared-compendia",
-      "entity": "Item"
-    },
-    {
-      "name": "deities-domains",
-      "label": "Shared Deities and Domains",
-      "path": "packs/deities-domains.db",
-      "module": "swade-shared-compendia",
-      "entity": "Item"
     },
     {
       "name": "hindrances",
@@ -81,23 +46,9 @@
       "entity": "Item"
     },
     {
-      "name": "magic-items",
-      "label": "Shared Magic Items",
-      "path": "packs/magic-items.db",
-      "module": "swade-shared-compendia",
-      "entity": "Item"
-    },
-    {
       "name": "powers",
       "label": "Shared Powers",
       "path": "packs/powers.db",
-      "module": "swade-shared-compendia",
-      "entity": "Item"
-    },
-    {
-      "name": "magic-schools",
-      "label": "Shared Schools of Magic",
-      "path": "packs/magic-schools.db",
       "module": "swade-shared-compendia",
       "entity": "Item"
     },
@@ -131,7 +82,7 @@
     },
     {
       "name": "rolltable",
-      "label": "Shared Roll Tables",
+      "label": "Shared Tables",
       "path": "packs/rolltable.db",
       "module": "swade-shared-compendia",
       "entity": "RollTable"
