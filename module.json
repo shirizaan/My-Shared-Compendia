@@ -93,6 +93,13 @@
       "path": "packs/playlist.db",
       "module": "swade-shared-compendia",
       "entity": "Playlist"
+    },
+    {
+      "name": "card-decks",
+      "label": "Shared Card Decks",
+      "path": "packs/card-decks.db",
+      "module": "swade-shared-compendia",
+      "entity": "Cards"
     }
   ],
   "system": [
