@@ -2,13 +2,13 @@
   "name": "swade-shared-compendium",
   "title": "SWADE Shared Compendium",
   "description": "A user-editable compendium, tailored for SWADE, designed to allow easy transfer of content between games.",
-  "author": "David Rose",
+  "author": "Sinistral2099",
   "version": "1.5",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "download": "https://github.com/shirizaan/swade-shared-compendium/releases/latest/download/swade-shared-compendium.zip",
   "manifest": "https://raw.githubusercontent.com/shirizaan/swade-shared-compendium/main/module.json",
-  "url": "https://github.com/shirizaan/swade-shared-compendia",
+  "url": "https://github.com/shirizaan/swade-shared-compendium",
   "packs": [
     {
       "name": "bestiary",
